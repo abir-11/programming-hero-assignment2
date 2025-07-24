@@ -1,0 +1,56 @@
+@media screen and (max-width:576px) {
+    
+    
+    .nav-bar{
+     
+     height: 38px;
+
+    }
+    .nav-img{
+        max-width: 63px;
+        max-height: 38px;
+    }
+    
+     .nav-link1{
+        display: none;
+    }
+    .link2{
+        display: none;
+    }
+    .nav-link3{
+        
+    }
+    .banner{
+        flex-direction: column-reverse;
+        max-height: fit-content;
+        margin-top: 28px;
+    }
+    .banner-details{
+        margin: 28px 16px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .banner-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0px;
+}
+.section-description{
+    font-size: .875rem;
+    
+}
+.plants-details{
+
+    margin-top: 65px;
+}
+.plants-heading{
+    font-size: 1.5rem;
+}
+.plants-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+    
+}
