@@ -347,3 +347,40 @@
     text-align: center;
     border: none;
 }
+.footer{
+    max-width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between; 
+    padding: 50px 160px;
+    align-items: start;
+}
+.footer-log{
+    max-width:359px ;
+    max-height: 179px;
+    
+}
+.footer-log img{
+    width: 30%;
+    gap: 16px;
+}
+ 
+
+.link-footer{
+    list-style: none;
+    margin-bottom: 32px;
+  
+}
+.links-items{
+    text-decoration: none;
+     text-align: center;
+    font-size: 1rem;
+    line-height: 24px;
+    color: #6B7280;
+    
+}
+
+.link-img{
+    width: 12%;
+    margin-left: 30px;
+}

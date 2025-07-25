@@ -154,4 +154,27 @@
     .submit{
         padding: 10px 5px;
     }
+.footer{
+flex-direction: column;
+padding: 0px;
+margin: 50px 20px;
+align-items: start;
+
+}
+.links{
+    
+   padding-left: 0px;
+   margin: 0px 0px;
+}
+.footer-log img{
+    width: 50%;
+    gap: 16px;
+    
+}
+.link-img{
+    margin-left: 1px;
+    width: 10%;
+    margin-right: 20px;
+}
+
 }
