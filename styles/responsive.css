@@ -126,5 +126,32 @@
 #card-section2{
     border-radius: 0px;
 }
+.bunch{
+    margin-top: 40px;
+    height: 100%;
+}
+
+.bunch-details{
     
+    margin:50px 30px 100px 30px;
+    
+    text-align: center;
+    align-items: center;
+}
+.bunch-heading{
+     font-weight: bold;
+    font-size: 1.25rem;
+   
+   
+}
+.input{
+    display: flex;
+    margin-top: 5px;
+}
+.email{
+    padding: 10px 5px;
+}
+    .submit{
+        padding: 10px 5px;
+    }
 }
