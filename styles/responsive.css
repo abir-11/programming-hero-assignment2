@@ -1,9 +1,11 @@
 @media screen and (max-width:576px) {
-    
-    
+      header{
+        margin: 0px 20px;
+      }
+
     .nav-bar{
-     
      height: 38px;
+     
 
     }
     .nav-img{
@@ -17,9 +19,7 @@
     .link2{
         display: none;
     }
-    .nav-link3{
-        
-    }
+    
     .banner{
         flex-direction: column-reverse;
         max-height: fit-content;
@@ -40,6 +40,9 @@
     font-size: .875rem;
     
 }
+.plants{
+    margin: 0px 20px;
+}
 .plants-details{
 
     margin-top: 65px;
@@ -47,10 +50,81 @@
 .plants-heading{
     font-size: 1.5rem;
 }
+.card-head{
+    font-size: 1rem;
+    
+}
+.card-price{
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+.btn-primary{
+    padding: 15px;
+}
 .plants-card{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+   align-items: center;
+   justify-content: center;
+}
+
+.plant-lover{
+   flex-direction: column;
+   margin-top: 40px;
+   /* max-height:648px ; */
+   gap: 0px;
+   align-items: center;
+   justify-content: center;
+   margin: 0 20px;
+}
+.icon{
+    display: none;
+}
+.flower-img{
+    width: 100%;
+   margin-bottom: 0px;
+   
+}
+.plant-lover-details{
+    margin-top:0px;
+    padding: 0px 0px;
+}
+.plant-lover-heading{
+    font-size: 1.5rem;
     
+}
+.join-section{
+    margin: 0px 20px;
+}
+.join-section-heading{
+    font-size: 1.5rem;
+}
+
+.join-section-card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 51px;
+    
+}
+.card-section-heading{
+    padding: 0px;
+    margin-top: 65px;
+}
+.card-section-heading1{
+    
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    margin:65px 0px 25px 0px;
+}
+.card-section-link1{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #FFFFFF;
+    padding: 50px 26px;
+    
+}
+#card-section2{
+    border-radius: 0px;
 }
     
 }

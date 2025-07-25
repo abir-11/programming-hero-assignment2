@@ -163,3 +163,129 @@
     grid-template-columns: repeat(4,1fr);
     gap: 30px 20px;
 }
+.plant-lover{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 68px;
+}
+
+.icon{ 
+    max-width: 286px;
+    max-height: 286px;
+    margin-left:360px;
+    margin-top: -50px;
+   
+}
+.flower-img{
+   max-height: 540px;
+   max-height: 597px;
+   margin-bottom:-680px;
+   
+}
+
+.flower-store{
+    max-width: 540px;
+    max-height: 600px;
+}
+.plant-lover-details{
+    max-width: 540px;
+    max-height: 521px;
+    padding: 38px 0px;
+    margin-top: 100px;
+}
+.plant-lover-heading{
+    font-weight: bold;
+    font-size: 3.125rem;
+    color: #000000;
+    margin: 0px;
+}
+.plant-lover-description li{
+    margin:0px 0px  20px 0px;
+}
+.join-section{
+    
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.join-section-details{
+    text-align: center;
+    margin-top: 134px;
+}
+.join-section-heading{
+    font-weight: bold;
+    font-size: 3.125rem;
+    margin: 0px;
+}
+.join-section-heading1{
+     color: #E95A08;
+}
+.join-section-heading2{
+    color: #000000;
+}
+.join-section-card{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 25px;
+    margin-top: 120px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.card-section{
+    position: relative;
+    overflow: hidden;
+    
+}
+#card-section1{
+    border-radius: 14px;
+}
+#card-section2{
+    border-radius: 14px;
+}
+#card-section3{
+    border-radius: 22px;
+}
+.card-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.card-section-details{
+    position: absolute;
+    inset: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+}
+.card-section-heading{
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 60px 48px 0px 48px;
+}
+.card-section-link{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #FFFFFF;
+    padding:50px 26px ;
+}
+.card-section-heading1{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+   margin: 172px 128px 0px 128px;
+}
+.card-section-link1{
+    font-weight: 600;
+    font-size: 1.75rem;
+    color: #FFFFFF;
+    padding: 50px 26px;
+}
